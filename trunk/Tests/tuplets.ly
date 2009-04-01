@@ -20,7 +20,7 @@
 %{FIXME:ignored systext:\$PARTNAME\ %}
  
 %{FIXME:ignored systext:\$HEADERPARTNAME\ %}
- R1*4/4*3 \time 6/8 R1*6/8*1 \bar "|." |%{4%} }
+ R1*4/4*3 \time 6/8 R1*6/8*1 \bar "|." }
 >>
 
 			}
@@ -30,7 +30,10 @@
 			{
 				\clef treble \key c \major <<
 \new Voice { \voiceOne
-g'1  |%{1%} \times 2/3 { g'4  g'4  g'4  }\times 2/3 { g'8  g'8  g'8  }\times 2/3 { g'16  g'16  g'16  }g'8  |%{2%} \times 2/3 { g'2  g'2  g'2  }|%{3%}  R1*6/8*1 }
+g'1  |%{1%} 
+\times 2/3 { g'4  g'4  g'4  }\times 2/3 { g'8  g'8  g'8  }\times 2/3 { g'16  g'16  g'16  }g'8  |%{2%} 
+\times 2/3 { g'2  g'2  g'2  }|%{3%} 
+ R1*6/8*1 }
 >>
 
 			}
@@ -40,7 +43,10 @@ g'1  |%{1%} \times 2/3 { g'4  g'4  g'4  }\times 2/3 { g'8  g'8  g'8  }\times 2/3
 			{
 				\clef treble \key c \major <<
 \new Voice { \voiceOne
- R1*4/4*1 \times 2/3 { g'8  r8 g'8  }\times 2/3 { r8 g'8  g'8  }\times 2/3 { g'8  g'8  r8 }\times 2/3 { r8 g'4  }|%{2%} \times 2/3 { g'8  g'16  g'16  g'8  }\times 4/6 { g'16  g'16  g'16  g'16  g'16  g'16  }r2 |%{3%} g'8  g'8  g'8  \times 3/2 { g'8  s16 g'8  }s8 |%{4%} }
+ R1*4/4*1 \times 2/3 { g'8  r8 g'8  }\times 2/3 { r8 g'8  g'8  }\times 2/3 { g'8  g'8  r8 }\times 2/3 { r8 g'4  }|%{2%} 
+\times 2/3 { g'8  g'16  g'16  g'8  }\times 4/6 { g'16  g'16  g'16  g'16  g'16  g'16  }r2 |%{3%} 
+g'8  g'8  g'8  \times 3/2 { g'8  s16 g'8  s16 }|%{4%} 
+}
 >>
 
 			}
@@ -50,7 +56,9 @@ g'1  |%{1%} \times 2/3 { g'4  g'4  g'4  }\times 2/3 { g'8  g'8  g'8  }\times 2/3
 			{
 				\clef treble \key c \major <<
 \new Voice { \voiceOne
- R1*4/4*1  \times 2/3 { g'8 ( g'8  ) g'8 ( }g'8  g'8  ) \times 2/3 { g'8 ( g'8  g'8  )}g'8   g'8 ( |%{2%} \times 2/3 { g'8  g'8  ) g'8 ( }g'8  g'8  \times 2/3 { g'8  )g'8  g'8  }g'8  g'8  |%{3%}  R1*6/8*1 }
+ R1*4/4*1  \times 2/3 { g'8 ( g'8  ) g'8 ( }g'8  g'8  ) \times 2/3 { g'8 ( g'8  g'8  )}g'8   g'8 ( |%{2%} 
+\times 2/3 { g'8  g'8  ) g'8 ( }g'8  g'8  \times 2/3 { g'8  )g'8  g'8  }g'8  g'8  |%{3%} 
+ R1*6/8*1 }
 >>
 
 			}

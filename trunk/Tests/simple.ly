@@ -20,7 +20,7 @@
 %{FIXME:ignored systext:\$PARTNAME\ %}
  
 %{FIXME:ignored systext:\$HEADERPARTNAME\ %}
- R1*4/4*5 \bar "|." |%{5%} }
+ R1*4/4*5 \bar "|." }
 >>
 
 			}
@@ -30,7 +30,12 @@
 			{
 				\clef treble \key c \major <<
 \new Voice { \voiceOne
-c''4  d''4  e''4  f''4  |%{1%} g''4  f''4  e''4  d''4  |%{2%} c''4  b'4  a'4  g'4  |%{3%} f'2  e'2  |%{4%} d'1  |%{5%} }
+c''4  d''4  e''4  f''4  |%{1%} 
+g''4  f''4  e''4  d''4  |%{2%} 
+c''4  b'4  a'4  g'4  |%{3%} 
+f'2  e'2  |%{4%} 
+d'1  |%{5%} 
+}
 >>
 
 			}

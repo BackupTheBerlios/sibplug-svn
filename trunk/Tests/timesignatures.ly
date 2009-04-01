@@ -20,7 +20,7 @@
 %{FIXME:ignored systext:\$PARTNAME\ %}
  
 %{FIXME:ignored systext:\$HEADERPARTNAME\ %}
- R1*4/4*1 \mark \default R1*4/4*1 \time 3/4 R1*3/4*2 \time 6/8 \mark \default R1*6/8*2 \time 2/2 R1*2/2*2 \bar "|." |%{8%} }
+ R1*4/4*1 \mark \default R1*4/4*1 \time 3/4 R1*3/4*2 \time 6/8 \mark \default R1*6/8*2 \time 2/2 R1*2/2*2 \bar "|." }
 >>
 
 			}
@@ -30,7 +30,15 @@
 			{
 				\clef treble \key c \major <<
 \new Voice { \voiceOne
-g'4  g'4  g'4  g'4  |%{1%} g'4  g'4  g'4  g'4  |%{2%} g'4  g'4  g'4  |%{3%} g'4  g'4  g'4  |%{4%} g'4  g'4  g'4  |%{5%} g'4  g'4  g'4  |%{6%} g'4  g'4  g'4  g'4  |%{7%} g'4  g'4  g'4  g'4  |%{8%} }
+g'4  g'4  g'4  g'4  |%{1%} 
+g'4  g'4  g'4  g'4  |%{2%} 
+g'4  g'4  g'4  |%{3%} 
+g'4  g'4  g'4  |%{4%} 
+g'4  g'4  g'4  |%{5%} 
+g'4  g'4  g'4  |%{6%} 
+g'4  g'4  g'4  g'4  |%{7%} 
+g'4  g'4  g'4  g'4  |%{8%} 
+}
 >>
 
 			}
@@ -50,7 +58,8 @@ g'4  g'4  g'4  g'4  |%{1%} g'4  g'4  g'4  g'4  |%{2%} g'4  g'4  g'4  |%{3%} g'4 
 			{
 				\clef treble \key c \major <<
 \new Voice { \voiceOne
-c''8  c''8  \times 2/3 { c''8  c''8  c''8  }c''4  r4 |%{1%}  R1*4/4*1   R1*3/4*2   R1*6/8*2   R1*2/2*2 }
+c''8  c''8  \times 2/3 { c''8  c''8  c''8  }c''4  r4 |%{1%} 
+ R1*4/4*1   R1*3/4*2   R1*6/8*2   R1*2/2*2 }
 >>
 
 			}
